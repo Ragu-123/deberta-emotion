@@ -1,0 +1,7 @@
+langgraph
+transformers
+torch
+datasets
+accelerate
+scikit-learn
+huggingface_hub
