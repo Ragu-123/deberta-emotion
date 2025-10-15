@@ -133,5 +133,5 @@ Final Label: anger (Corrected via user clarification)
 * **Microsoft Research** — for the DeBERTa-v3 architecture.
 * **Dair-AI** — for the open-source Emotion dataset.
 * **LangChain & LangGraph Teams** — for inspiring modular workflow design.
-* **Hugging Face** — for model hosting and distribution.
-* **Google Colab** — for providing an easy environment to explore and reproduce this project.
+
+
