@@ -4,17 +4,23 @@ A robust, self-healing text classification pipeline that pairs a fine-tuned DeBE
 
 ---
 
-## Fine-Tuned Model: [![Hugging Face](https://img.shields.io/badge/🤗-View%20on%20Hugging%20Face-blue.svg)](https://huggingface.co/ragunath-ravi/deberta-v3-emotion-classifier)
+## Fine-Tuned Model and Training Notebook
+
+### Model on Hugging Face
+
+[![Hugging Face](https://img.shields.io/badge/🤗-View%20on%20Hugging%20Face-blue.svg)](https://huggingface.co/ragunath-ravi/deberta-v3-emotion-classifier)
 
 This model is a fine-tuned version of [**DeBERTa-v3-base**](https://huggingface.co/microsoft/deberta-v3-base) trained on the [`dair-ai/emotion`](https://huggingface.co/datasets/dair-ai/emotion) dataset to classify text into emotional categories such as *joy, sadness, anger, fear, surprise,* and *love.*
 
-A **Google Colab notebook** is available for exploring, running inference, or re-training the model:
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pWX64LDP9SHyWrr0Gy-Uwiur1SdcOPRj?usp=sharing)
+### Fine-Tuning Notebook
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pWX64LDP9SHyWrr0Gy-Uwiur1SdcOPRj?usp=sharing)
+
+The linked **Google Colab notebook** demonstrates the full fine-tuning process for this model — including dataset loading, preprocessing, training, and evaluation steps. It can be used to reproduce the results or adapt the training for new datasets.
 
 ---
 
-##  Highlights
+## Highlights
 
 * **Fine-Tuned Model** — Uses a `deberta-v3-base` model fine-tuned on the `dair-ai/emotion` dataset (hosted on Hugging Face).
 * **LangGraph Workflow** — The classification logic is modeled as a Directed Acyclic Graph (DAG) for predictable, stateful flow control.
@@ -63,7 +69,6 @@ cd deberta-emotion
 ```
 
 **Create and activate a virtual environment**
-
 macOS / Linux:
 
 ```bash
@@ -134,6 +139,3 @@ Final Label: anger (Corrected via user clarification)
 * **Microsoft Research** — for the DeBERTa-v3 architecture.
 * **Dair-AI** — for the open-source Emotion dataset.
 * **LangChain & LangGraph Teams** — for inspiring modular workflow design.
-
-
-
