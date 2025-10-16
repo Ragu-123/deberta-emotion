@@ -1,0 +1,7 @@
+2025-10-16 22:44:41,106 - INFO - Application starting.
+2025-10-16 22:44:44,630 - INFO - Model ragunath-ravi/deberta-v3-emotion-classifier loaded successfully.
+2025-10-16 22:45:11,591 - INFO - INPUT: 'i am so happy and excited for the event'
+2025-10-16 22:45:12,250 - INFO - FINAL_DECISION: text='i am so happy and excited for the event' | prediction='joy' | confidence=0.9997 | fallback_invoked=False | final_label='joy'
+2025-10-16 22:45:50,510 - INFO - INPUT: 'i'm so done with this non sense every single day'
+2025-10-16 22:46:14,921 - INFO - FINAL_DECISION: text='i'm so done with this non sense every single day' | prediction='sadness' | confidence=0.4847 | fallback_invoked=True | final_label='anger'
+2025-10-16 22:53:52,213 - INFO - Application terminated by user.
