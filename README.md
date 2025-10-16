@@ -6,6 +6,12 @@ A robust, self-healing text classification pipeline that pairs a fine-tuned DeBE
 
 ---
 
+## Demo Video
+
+**Demo Video:** [Watch on YouTube](https://youtu.be/s9VaSYj31Lo)
+
+---
+
 ## Fine-Tuned Model and Training Notebook
 
 ### Model on Hugging Face
@@ -141,4 +147,5 @@ Final Label: anger (Corrected via user clarification)
 * **Microsoft Research** — for the DeBERTa-v3 architecture.
 * **Dair-AI** — for the open-source Emotion dataset.
 * **LangChain & LangGraph Teams** — for inspiring modular workflow design.
-
+---
+For more detailed documentation and code base deep dive see the [**Wiki**](https://github.com/Ragu-123/deberta-emotion/wiki).
