@@ -2,6 +2,8 @@
 
 A robust, self-healing text classification pipeline that pairs a fine-tuned DeBERTa-v3 model with a LangGraph workflow. The system is designed for human-in-the-loop (HIL) scenarios where correctness matters more than blind automation: if the model is uncertain, the pipeline asks a human for clarification and records the result.
 
+<img width="360" height="521" alt="dag" src="https://github.com/user-attachments/assets/02421f0e-aa32-4b2d-8a07-66428fdd9a5b" />
+
 ---
 
 ## Fine-Tuned Model and Training Notebook
@@ -139,3 +141,4 @@ Final Label: anger (Corrected via user clarification)
 * **Microsoft Research** — for the DeBERTa-v3 architecture.
 * **Dair-AI** — for the open-source Emotion dataset.
 * **LangChain & LangGraph Teams** — for inspiring modular workflow design.
+
